@@ -15,11 +15,10 @@ function about() {
           Timeline
         </h1>
       </div>
-      <div className="time-line">
+      <div className="">
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            //   whatsapp kia hai ha
             contentStyle={{ background: "rgb(70, 70, 109)", color: "#000" }}
             contentArrowStyle={{ borderRight: "7px solid  rgb(70, 70, 109)" }}
             date="21st Sept 2022"
