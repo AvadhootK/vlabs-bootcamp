@@ -1,0 +1,13 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+* {
+    outline: 1px red;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.time-line {
+    width: 800px;
+    margin: 0 auto;
+}
