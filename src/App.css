@@ -1,13 +1,30 @@
+html {
+    scroll-behavior: smooth;
+  }
+
 body {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Manrope', sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
 }
 
 * {
     outline: 1px red;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Manrope', sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
 }
 
 .time-line {
     width: 800px;
     margin: 0 auto;
+}
+
+.navbarscrl{
+    box-shadow: 0 2px 3px -1px gray;
+}
+
+.section a:hover{
+    color: black !important;
+}
+.navlink{
+    text-decoration: none;
 }

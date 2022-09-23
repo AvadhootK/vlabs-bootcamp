@@ -2,6 +2,10 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+import { Link } from "react-router-dom";
+import plogo2 from "../assets/plogo2.png";
+import college from "../assets/college.png";
+// import pvgcolorlogo from "../assets/pvgcolorlogo.jpg";
 // import NavDropdown from "react-bootstrap/NavDropdown";
 
 function navbar() {
@@ -9,19 +13,25 @@ function navbar() {
     <Navbar
       collapseOnSelect
       expand="lg"
-      style={{ backgroundColor: "#ccf2ff" }}
+      style={{ fontSize: "17px" }}
       sticky="top"
       className="navbarscrl"
     >
       <Container>
-        <Navbar.Brand href="#home">
-          <img src="/vlabs.png" width={150} alt="vlabs" />
-        </Navbar.Brand>
+        <Link to="/">
+          <Navbar.Brand href="/">
+            <img src={college} width={400} alt="vlabs" />
+          </Navbar.Brand>
+        </Link>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#about">About</Nav.Link>
+          <Nav style={{ marginLeft: "auto" }}>
+            <Link to="/home" className="navlink">
+              <Nav.Link href="home">Home</Nav.Link>
+            </Link>
+            <Link to="/about" className="navlink">
+              <Nav.Link href="about">About</Nav.Link>
+            </Link>
             {/* <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
@@ -33,11 +43,24 @@ function navbar() {
                 Separated link
               </NavDropdown.Item>
             </NavDropdown> */}
-            <Nav.Link href="#registration">Registration</Nav.Link>
-            <Nav.Link href="#participants">Selected Participants</Nav.Link>
-            <Nav.Link href="#faqs">FAQs</Nav.Link>
-            <Nav.Link href="#resources">Resources</Nav.Link>
-            <Nav.Link href="#contact">Contact Us</Nav.Link>
+            <Link to="/qualifyingtask" className="navlink">
+              <Nav.Link href="qualifyingtask">QualifyingTask</Nav.Link>
+            </Link>
+            <Link to="/participants" className="navlink">
+              <Nav.Link href="participants">Selected Participants</Nav.Link>
+            </Link>
+            <Link to="/faqs" className="navlink">
+              <Nav.Link href="faqs">FAQs</Nav.Link>
+            </Link>
+            <Link to="/resources" className="navlink">
+              <Nav.Link href="resources">Resources</Nav.Link>
+            </Link>
+            <Link to="/photogallery" className="navlink">
+              <Nav.Link href="resources">Photo Gallery</Nav.Link>
+            </Link>
+            <Link to="/contact" className="navlink">
+              <Nav.Link href="contact">Contact Us</Nav.Link>
+            </Link>
           </Nav>
           {/* <Nav>
             <Nav.Link href="#deets">More deets</Nav.Link>
