@@ -6,8 +6,8 @@ function PhotoGallery() {
   return (
     <>
       <Navbar />
-      <div className="text-center py-4">
-        <h1>PhotoGallery</h1>
+      <div className="container text-center p-5">
+        <h1 className="heading">Photo Gallery</h1>
       </div>
       <Footer />
     </>

@@ -3,7 +3,7 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { Link } from "react-router-dom";
-import plogo2 from "../assets/plogo2.png";
+// import plogo2 from "../assets/plogo2.png";
 import college from "../assets/college.png";
 // import pvgcolorlogo from "../assets/pvgcolorlogo.jpg";
 // import NavDropdown from "react-bootstrap/NavDropdown";
@@ -11,16 +11,18 @@ import college from "../assets/college.png";
 function navbar() {
   return (
     <Navbar
+      bg="dark"
+      variant="dark"
       collapseOnSelect
       expand="lg"
-      style={{ fontSize: "17px" }}
+      style={{ fontSize: "17px", backgroundColor: "#2a2a32", color: "white" }}
       sticky="top"
       className="navbarscrl"
     >
       <Container>
         <Link to="/">
           <Navbar.Brand href="/">
-            <img src={college} width={400} alt="vlabs" />
+            <img src={college} width={325} alt="vlabs" />
           </Navbar.Brand>
         </Link>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -44,10 +46,13 @@ function navbar() {
               </NavDropdown.Item>
             </NavDropdown> */}
             <Link to="/qualifyingtask" className="navlink">
-              <Nav.Link href="qualifyingtask">QualifyingTask</Nav.Link>
+              <Nav.Link href="qualifyingtask">Qualifying Task</Nav.Link>
+            </Link>
+            <Link to="/impinstru" className="navlink">
+              <Nav.Link href="impinstru">Instructions</Nav.Link>
             </Link>
             <Link to="/participants" className="navlink">
-              <Nav.Link href="participants">Selected Participants</Nav.Link>
+              <Nav.Link href="participants">Participants</Nav.Link>
             </Link>
             <Link to="/faqs" className="navlink">
               <Nav.Link href="faqs">FAQs</Nav.Link>
@@ -56,7 +61,7 @@ function navbar() {
               <Nav.Link href="resources">Resources</Nav.Link>
             </Link>
             <Link to="/photogallery" className="navlink">
-              <Nav.Link href="resources">Photo Gallery</Nav.Link>
+              <Nav.Link href="resources">Gallery</Nav.Link>
             </Link>
             <Link to="/contact" className="navlink">
               <Nav.Link href="contact">Contact Us</Nav.Link>

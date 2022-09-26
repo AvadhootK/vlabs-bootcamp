@@ -5,9 +5,9 @@ import { FiMail } from "react-icons/fi";
 function footer() {
   return (
     <footer
-      className="text-dark py-5"
+      className="text-light py-5"
       style={{
-        backgroundColor: "#f7f6f7",
+        backgroundColor: "#2a2a32",
         boxShadow: "0px -0px 2px rgba(50, 50, 50, 0.75)",
       }}
     >
@@ -19,15 +19,15 @@ function footer() {
         >
           Footer
         </a> */}
-          <div className="mb-4">
-            <h5>
+          <div className="mb-4 ">
+            <h5 className="d-flex align-items-center">
               <GoLocation
                 size={20}
                 style={{
                   color: "red",
                 }}
               />{" "}
-              Location
+              &nbsp;Location
             </h5>
             <ul className="nav flex-column">
               <li className="nav-item mb-2">
@@ -81,8 +81,13 @@ function footer() {
               </a>
             </li>
             <li className="nav-item mb-2">
+              <a href="/impinstru" className="nav-link p-0 text-muted">
+                Important Instructions
+              </a>
+            </li>
+            <li className="nav-item mb-2">
               <a href="/participants" className="nav-link p-0 text-muted">
-                Selected Participants
+                Participants
               </a>
             </li>
             <li className="nav-item mb-2">

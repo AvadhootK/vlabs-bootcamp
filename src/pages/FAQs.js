@@ -7,7 +7,7 @@ function FAQs() {
     <div>
       <Navbar />
       <div className="container p-5">
-        <h1 className="text-center">FAQs</h1>
+        <h1 className="text-center heading">Frequently Asked Questions</h1>
         <hr></hr>
         <div class="accordion p-5" id="accordionExample">
           {/* First */}
@@ -21,7 +21,7 @@ function FAQs() {
                 aria-expanded="true"
                 aria-controls="collapseOne"
               >
-                What is Bootcamp?
+                What is the aim of the Bootcamp?
               </button>
             </h2>
             <div
@@ -31,9 +31,9 @@ function FAQs() {
               data-bs-parent="#accordionExample"
             >
               <div class="accordion-body">
-                Boot camp is aimed at developing the simulator for the existing
-                Ideations in various science and engineering domains with the
-                help of the student and teacher community.
+                The boot camp aims to develop the simulator for the existing
+                virtual experiment ideations in various science and engineering
+                domains with the help of the student and teacher community.
               </div>
             </div>
           </div>
@@ -48,7 +48,7 @@ function FAQs() {
                 aria-expanded="false"
                 aria-controls="collapseTwo"
               >
-                What is the registration fees?
+                Are there any registration fees?
               </button>
             </h2>
             <div
@@ -58,7 +58,7 @@ function FAQs() {
               data-bs-parent="#accordionExample"
             >
               <div class="accordion-body">
-                Participation is free in the boot camp.
+                No. Participation is FREE of cost.
               </div>
             </div>
           </div>
@@ -73,7 +73,7 @@ function FAQs() {
                 aria-expanded="false"
                 aria-controls="collapseThree"
               >
-                Will there be accommodation?
+                Will there be accommodation for qualified participants ?
               </button>
             </h2>
             <div
@@ -161,8 +161,8 @@ function FAQs() {
               data-bs-parent="#accordionExample"
             >
               <div class="accordion-body">
-                The boot camp will be conducted in hybrid mode (1 week online
-                and 1 week offline).
+                The boot camp will be conducted in hybrid mode I.e. One week
+                online followed by one week offline.
               </div>
             </div>
           </div>
@@ -202,7 +202,7 @@ function FAQs() {
                 aria-expanded="false"
                 aria-controls="collapseEight"
               >
-                Is the boot camp open to all the students?
+                Do I need a Laptop for the Bootcamp?
               </button>
             </h2>
             <div
@@ -212,7 +212,8 @@ function FAQs() {
               data-bs-parent="#accordionExample"
             >
               <div class="accordion-body">
-                Boot camp open to Engineering students (UG/PG).
+                Yes. Participants should carry their laptop for both online and
+                offline mode of boot camp.
               </div>
             </div>
           </div>
@@ -227,7 +228,7 @@ function FAQs() {
                 aria-expanded="false"
                 aria-controls="collapseNine"
               >
-                Is it compulsory to attend in both the modes?
+                Is the boot camp open to all the students?
               </button>
             </h2>
             <div
@@ -237,8 +238,110 @@ function FAQs() {
               data-bs-parent="#accordionExample"
             >
               <div class="accordion-body">
-                Yes, it is compulsory to attend in both the modes(online &
-                offline).
+                Boot camp is open to Engineering students (UG /PG) of all
+                branches.
+              </div>
+            </div>
+          </div>
+          {/* Ten */}
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTen ">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTen"
+                aria-expanded="false"
+                aria-controls="collapseTen"
+              >
+                Can I attend only in Online mode?
+              </button>
+            </h2>
+            <div
+              id="collapseTen"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingTen"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Attendance for online plus offline is mandatory.
+              </div>
+            </div>
+          </div>
+          {/* Eleven */}
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingEleven">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseEleven"
+                aria-expanded="false"
+                aria-controls="collapseEleven"
+              >
+                Why should I submit my contact details?
+              </button>
+            </h2>
+            <div
+              id="collapseEleven"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingEleven"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                To receive notification emails regarding the event.
+              </div>
+            </div>
+          </div>
+          {/* Twelve */}
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwelve">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwelve"
+                aria-expanded="false"
+                aria-controls="collapseTwelve"
+              >
+                Do I get any certificate?
+              </button>
+            </h2>
+            <div
+              id="collapseTwelve"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingTwelve"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Yes, on succesful completion of the two weeks (both online and
+                offline modes) of the bootcamp.
+              </div>
+            </div>
+          </div>
+          {/* Thirteen */}
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThirteen">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThirteen"
+                aria-expanded="false"
+                aria-controls="collapseThirteen"
+              >
+                What are the tentative timings?
+              </button>
+            </h2>
+            <div
+              id="collapseThirteen"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingThirteen"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Online Event Time: 10 am to 9:00 pm <br></br>Offline Event Time
+                : 9 am to 4:30 pm
               </div>
             </div>
           </div>

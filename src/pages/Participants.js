@@ -6,8 +6,8 @@ function Participants() {
   return (
     <>
       <Navbar />
-      <div className="text-center py-4">
-        <h1>Participants</h1>
+      <div className="text-center p-5 container">
+        <h1 className="heading">Participants</h1>
       </div>
       <Footer />
     </>
