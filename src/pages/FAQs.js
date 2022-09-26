@@ -9,7 +9,7 @@ function FAQs() {
       <div className="container p-5">
         <h1 className="text-center heading">Frequently Asked Questions</h1>
         <hr></hr>
-        <div class="accordion p-5" id="accordionExample">
+        <div class="accordion py-5" id="accordionExample">
           {/* First */}
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingOne">
