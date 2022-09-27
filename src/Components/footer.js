@@ -100,11 +100,11 @@ function footer() {
                 Resources
               </a>
             </li>
-            <li className="nav-item mb-2">
+            {/* <li className="nav-item mb-2">
               <a href="/photogallery" className="nav-link p-0 text-muted">
                 Photo Gallery
               </a>
-            </li>
+            </li> */}
             <li className="nav-item mb-2">
               <a href="/contact" className="nav-link p-0 text-muted">
                 Contact Us

@@ -10,7 +10,8 @@ function Resources() {
         <h1 className="heading">Resources</h1>
         <hr></hr>
         <div>
-          Link to Resources :{" "}
+          We have created a separate document for Resources, you can check it
+          out! <br></br>
           <a
             href="https://docs.google.com/document/d/e/2PACX-1vTiHVJHyGQBrSj_xGLmuwIQZL7MeNCrG3BFcEQu9-CB2Q5xg96fkR9lxH1Nnwk5hOTOCqp99L0OO1MN/pub"
             target={"_blank"}

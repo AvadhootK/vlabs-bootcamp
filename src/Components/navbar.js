@@ -60,9 +60,9 @@ function navbar() {
             <Link to="/resources" className="navlink">
               <Nav.Link href="resources">Resources</Nav.Link>
             </Link>
-            <Link to="/photogallery" className="navlink">
+            {/* <Link to="/photogallery" className="navlink">
               <Nav.Link href="resources">Gallery</Nav.Link>
-            </Link>
+            </Link> */}
             <Link to="/contact" className="navlink">
               <Nav.Link href="contact">Contact Us</Nav.Link>
             </Link>
