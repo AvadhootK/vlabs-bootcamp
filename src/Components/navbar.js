@@ -46,7 +46,7 @@ function navbar() {
               </NavDropdown.Item>
             </NavDropdown> */}
             <Link to="/qualifyingtask" className="navlink">
-              <Nav.Link href="qualifyingtask">Qualifying Task</Nav.Link>
+              <Nav.Link href="qualifyingtask">Qualifying Tasks</Nav.Link>
             </Link>
             <Link to="/impinstru" className="navlink">
               <Nav.Link href="impinstru">Instructions</Nav.Link>

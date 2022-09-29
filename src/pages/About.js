@@ -14,7 +14,11 @@ function About() {
         </div>
         <div className="py-4">
           <Card>
-            <Card.Header as="h4" className="text-center">
+            <Card.Header
+              as="h4"
+              className="text-center"
+              style={{ backgroundColor: "#2a2a32", color: "white" }}
+            >
               Virtual Labs
             </Card.Header>
             <Card.Body>
@@ -40,8 +44,12 @@ function About() {
         </div>
         <div className="py-4">
           <Card>
-            <Card.Header className="text-center" as="h4">
-              What is BootCamp?
+            <Card.Header
+              className="text-center"
+              as="h4"
+              style={{ backgroundColor: "#2a2a32", color: "white" }}
+            >
+              What is Bootcamp?
             </Card.Header>
             <Card.Body>
               {/* <Card.Title>Special title treatment</Card.Title> */}
@@ -78,7 +86,11 @@ function About() {
 
         <div className="py-4">
           <Card>
-            <Card.Header className="text-center" as={"h4"}>
+            <Card.Header
+              className="text-center"
+              as={"h4"}
+              style={{ backgroundColor: "#2a2a32", color: "white" }}
+            >
               PVG’s College of Engineering and Technology and G. K. Pate (Wani)
               Institute of Management,Pune
             </Card.Header>
@@ -121,7 +133,11 @@ function About() {
 
         <div className="py-4">
           <Card>
-            <Card.Header className="text-center" as={"h4"}>
+            <Card.Header
+              className="text-center"
+              as={"h4"}
+              style={{ backgroundColor: "#2a2a32", color: "white" }}
+            >
               Virtual Labs Regional Centre
             </Card.Header>
             <Card.Body>

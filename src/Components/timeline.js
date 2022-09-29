@@ -6,6 +6,7 @@ import "react-vertical-timeline-component/style.min.css";
 import { Link } from "react-router-dom";
 import { Nav } from "react-bootstrap";
 import { MdDateRange } from "react-icons/md";
+import img2 from "../assets/img2.svg";
 // import Card from "react-bootstrap/Card";
 
 function about() {
@@ -18,8 +19,10 @@ function about() {
         >
           Timeline
         </h1>
+        <hr></hr>
       </div>
-      <div className="pb-5">
+      <div className="pb-5" style={{ position: "relative" }}>
+        <img className="background" src={img2} alt="text"></img>
         <VerticalTimeline lineColor="black">
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -30,9 +33,9 @@ function about() {
             // icon={<WorkIcon />}
           >
             <h4 className="vertical-timeline-element-title mb-2">
-              Qualifying Task
+              Qualifying Tasks
             </h4>
-            <p>
+            <p className="d-flex align-items-center">
               <MdDateRange />
               &nbsp;21/09/2022
             </p>
@@ -40,7 +43,7 @@ function about() {
               to="/qualifyingtask"
               className="navlink text-light text-decoration-underline"
             >
-              <Nav.Link href="qualifyingtask">Qualifying Task Link</Nav.Link>
+              <Nav.Link href="qualifyingtask">Qualifying Tasks Link</Nav.Link>
             </Link>
             {/* <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
           <p>
@@ -57,7 +60,7 @@ function about() {
             // icon={<WorkIcon />}
           >
             <h4 className="vertical-timeline-element-title ">
-              Qualifying Task Submission ends
+              Qualifying Tasks Submission ends
             </h4>
             <p className="d-flex align-items-center">
               <MdDateRange />
@@ -82,7 +85,7 @@ function about() {
             <h4 className="vertical-timeline-element-title">
               Announcement of selected participants for the bootcamp
             </h4>
-            <p>
+            <p className="d-flex align-items-center">
               <MdDateRange />
               &nbsp;19/10/2022
             </p>
@@ -100,7 +103,7 @@ function about() {
             // icon={<WorkIcon />}
           >
             <h4 className="vertical-timeline-element-title">Online event</h4>
-            <p>
+            <p className="d-flex align-items-center">
               <MdDateRange />
               &nbsp;31/10/2022 to 4/11/2022
             </p>
@@ -118,7 +121,7 @@ function about() {
             // icon={<SchoolIcon />}
           >
             <h4 className="vertical-timeline-element-title">Offline Event</h4>
-            <p>
+            <p className="d-flex align-items-center">
               <MdDateRange />
               &nbsp;5/11/2022 to 11/11/2022
             </p>

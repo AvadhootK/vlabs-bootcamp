@@ -7,7 +7,7 @@ function QualifyingTask() {
     <>
       <Navbar />
       <div className="container p-5">
-        <h1 className="text-center heading">Qualifying Task</h1>
+        <h1 className="text-center heading">Qualifying Tasks</h1>
         <hr></hr>
         {/* To be completed on or before 16/10/2022.<br></br>
         <b>Steps To Participate:</b>
@@ -44,7 +44,7 @@ function QualifyingTask() {
           ></iframe>
         </div>
         <div>
-          Link for the evaluation process for Qualifying Task :&nbsp;
+          Link for the evaluation process for Qualifying Tasks :&nbsp;
           <a
             href="https://docs.google.com/document/d/e/2PACX-1vQXYz2fhr3ZSmdmXBWWMStXGMY1KgkFZZeTKdl2VChSODy_qv0_BPFy0RnvaDPXzYeAY5z9UtDJ6iI1/pub"
             target={"_blank"}

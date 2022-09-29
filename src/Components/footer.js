@@ -77,7 +77,7 @@ function footer() {
             </li>
             <li className="nav-item mb-2">
               <a href="/qualifyingtask" className="nav-link p-0 text-muted">
-                Qualifying Task
+                Qualifying Tasks
               </a>
             </li>
             <li className="nav-item mb-2">

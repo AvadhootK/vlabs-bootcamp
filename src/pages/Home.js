@@ -6,8 +6,8 @@ import Carousel from "react-bootstrap/Carousel";
 // import design2 from "../assets/design2.png";
 // import imga from "../assets/imga.jpeg";
 import team from "../assets/team.jpeg";
-import team3 from "../assets/team3.jpeg";
-import flyer2 from "../assets/flyer2.png";
+import team2 from "../assets/team2.jpg";
+import flyer from "../assets/flyer.png";
 
 function Home() {
   return (
@@ -15,7 +15,7 @@ function Home() {
       <Navbar />
       <Carousel variant="dark">
         <Carousel.Item interval={2000}>
-          <img className="d-block w-100" src={flyer2} alt="First slide" />
+          <img className="d-block w-100" src={flyer} alt="First slide" />
           {/* <img className="d-block w-100" src={imga} alt="First slide" /> */}
           {/* <Carousel.Caption>
             <h5>First slide label</h5>
@@ -23,7 +23,7 @@ function Home() {
           </Carousel.Caption> */}
         </Carousel.Item>
         <Carousel.Item interval={2000}>
-          <img className="d-block w-100" src={team3} alt="Second slide" />
+          <img className="d-block w-100" src={team2} alt="Second slide" />
           {/* <Carousel.Caption>
             <h5>Second slide label</h5>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
