@@ -35,7 +35,10 @@ function ImpInstru() {
                   <li>
                     The laptop is required for both online and offline modes.
                   </li>
-                  <li>Submission of Qualifying Tasks(QTs) is compulsory.</li>
+                  <li>
+                    To participate in the bootcamp, students need to submit the
+                    Qualifying Tasks(QTs).
+                  </li>
                   <li>
                     Only qualified students(QTs qualified) will be eligible for
                     participation in the bootcamp.
@@ -49,7 +52,9 @@ function ImpInstru() {
                     for certification.
                   </li>
                   <li>Accommodation will not be provided.</li>
-                  <li>Participation is free of cost.</li>
+                  <li>
+                    <b>Participation is free of cost.</b>
+                  </li>
                 </ol>
               </div>
             </Col>

@@ -24,8 +24,8 @@ function QualifyingTask() {
           <li>Fill the QTS submission form on or before 16/10/2022.</li>
         </ol> */}
         <div className="mb-4">
-          To participate in the Bootcamp, you need to qualify for the task given
-          here :&nbsp;
+          To participate in the Bootcamp, you need to qualify for the tasks
+          given here :&nbsp;
           <a
             href="https://docs.google.com/document/d/e/2PACX-1vSIsrggH4Q8Cwgr2K24zJizw9OptiDLdsL_3CCxShMcxg5mPpEjHxT4eFjhzN3HgDX3JGMvSQnqsdSp/pub"
             target={"_blank"}

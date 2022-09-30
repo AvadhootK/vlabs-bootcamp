@@ -33,13 +33,13 @@ body {
     font-family: 'PT Serif', serif !important;
 }
 
-.background{
+/* .background{
     position: absolute;
     left: 0px;
     top: 0px;
-    z-index: -1;
+    z-index: -1;    
     width: 100%;
     height: 100%;
-    -webkit-filter: blur(3px); /* Safari 6.0 - 9.0 */
+    -webkit-filter: blur(3px);
     filter: blur(3px);
-}
+} */

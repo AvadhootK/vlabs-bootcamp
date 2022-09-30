@@ -14,15 +14,19 @@ function about() {
     <div className="container p-5">
       <div className="mb-5">
         <h1
-          className="text-center mt-4 heading"
+          className="text-center mt-4 heading "
           style={{ textDecoration: "none" }}
         >
           Timeline
-        </h1>
+        </h1>{" "}
+        {/* <img
+          className="background w-25 text-center"
+          src={img2}
+          alt="text"
+        ></img> */}
         <hr></hr>
       </div>
       <div className="pb-5" style={{ position: "relative" }}>
-        <img className="background" src={img2} alt="text"></img>
         <VerticalTimeline lineColor="black">
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -37,7 +41,7 @@ function about() {
             </h4>
             <p className="d-flex align-items-center">
               <MdDateRange />
-              &nbsp;21/09/2022
+              &nbsp;01/10/2022
             </p>
             <Link
               to="/qualifyingtask"
@@ -105,7 +109,7 @@ function about() {
             <h4 className="vertical-timeline-element-title">Online event</h4>
             <p className="d-flex align-items-center">
               <MdDateRange />
-              &nbsp;31/10/2022 to 4/11/2022
+              &nbsp;31/10/2022 to 6/11/2022
             </p>
             {/* <h4 className="vertical-timeline-element-subtitle">
             San Francisco, CA
@@ -123,7 +127,7 @@ function about() {
             <h4 className="vertical-timeline-element-title">Offline Event</h4>
             <p className="d-flex align-items-center">
               <MdDateRange />
-              &nbsp;5/11/2022 to 11/11/2022
+              &nbsp;7/11/2022 to 11/11/2022
             </p>
             {/* <h4 className="vertical-timeline-element-subtitle">Online Course</h4>
           <p>Strategy, Social Media</p> */}
