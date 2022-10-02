@@ -41,7 +41,7 @@ function about() {
             </h4>
             <p className="d-flex align-items-center">
               <MdDateRange />
-              &nbsp;01/10/2022
+              &nbsp;04/10/2022
             </p>
             <Link
               to="/qualifyingtask"
