@@ -7,7 +7,7 @@ function QualifyingTask() {
     <>
       <Navbar />
       <div className="container p-5">
-        <h1 className="text-center heading">Qualifying Tasks</h1>
+        <h1 className="text-center heading">Registration</h1>
         <hr></hr>
         {/* To be completed on or before 16/10/2022.<br></br>
         <b>Steps To Participate:</b>
@@ -24,33 +24,32 @@ function QualifyingTask() {
           <li>Fill the QTS submission form on or before 16/10/2022.</li>
         </ol> */}
         <div className="mb-4">
-          To participate in the Bootcamp, you need to qualify for the tasks
-          given here :&nbsp;
+          Register to participate in the Bootcamp :&nbsp;
           <a
-            href="https://docs.google.com/document/d/e/2PACX-1vSIsrggH4Q8Cwgr2K24zJizw9OptiDLdsL_3CCxShMcxg5mPpEjHxT4eFjhzN3HgDX3JGMvSQnqsdSp/pub"
+            href="https://vlabsdev.in/codingclub"
             target={"_blank"}
             rel="noreferrer"
           >
-            Link for Qualifying Tasks(QTs)
+            Click Here
           </a>
         </div>
-        <div className="mb-4">
-          Link for QTs Submission :&nbsp;
-          <iframe
-            frameborder="0"
-            style={{ height: "100%", width: "100%", marginTop: "10px" }}
-            title={"form"}
-            src="https://forms.zohopublic.in/vlabsbootcamp/form/EventRegistration/formperma/f77GUb0nQ-fFYnQhfMu697RflLJB-rAAbEdWPzBcZTE%27%3E"
-          ></iframe>
-        </div>
+
         <div>
-          Link for the evaluation process for Qualifying Tasks :&nbsp;
+          To participate in the bootcamp, students need to submit the Qualifying
+          Tasks(QTs).
+          <br />
+          <br />
+          Only qualified students(QTs qualified) will be eligible for
+          participation in the bootcamp.
+          <br />
+          <br />
+          Details about the Evaluation process :&nbsp;
           <a
             href="https://docs.google.com/document/d/e/2PACX-1vQXYz2fhr3ZSmdmXBWWMStXGMY1KgkFZZeTKdl2VChSODy_qv0_BPFy0RnvaDPXzYeAY5z9UtDJ6iI1/pub"
             target={"_blank"}
             rel="noreferrer"
           >
-            Evaluation Process
+            Click Here
           </a>
         </div>
       </div>

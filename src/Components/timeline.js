@@ -6,7 +6,7 @@ import "react-vertical-timeline-component/style.min.css";
 import { Link } from "react-router-dom";
 import { Nav } from "react-bootstrap";
 import { MdDateRange } from "react-icons/md";
-import img2 from "../assets/img2.svg";
+// import img2 from "../assets/img2.svg";
 // import Card from "react-bootstrap/Card";
 
 function about() {
@@ -37,18 +37,16 @@ function about() {
             // icon={<WorkIcon />}
           >
             <h4 className="vertical-timeline-element-title mb-2">
-              Qualifying Tasks
+              <Nav.Link href="/qualifyingtask">Registration</Nav.Link>
             </h4>
-            <p className="d-flex align-items-center">
-              <MdDateRange />
-              &nbsp;04/10/2022
-            </p>
+
             <Link
-              to="/qualifyingtask"
+              href="/qualifyingtask"
               className="navlink text-light text-decoration-underline"
             >
-              <Nav.Link href="qualifyingtask">Qualifying Tasks Link</Nav.Link>
+              {/* <Nav.Link href="https://vlabsdev.in/codingclub"  target="_blank" title="dummy ">Link for Registration</Nav.Link> */}
             </Link>
+
             {/* <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
           <p>
             Creative Direction, User Experience, Visual Design, Project
@@ -68,36 +66,10 @@ function about() {
             </h4>
             <p className="d-flex align-items-center">
               <MdDateRange />
-              &nbsp;16/10/2022
+              &nbsp;24/10/2022
             </p>
-            {/* <h4 className="vertical-timeline-element-subtitle">
-            San Francisco, CA
-          </h4>
-          <p>
-            Creative Direction, User Experience, Visual Design, SEO, Online
-            Marketing
-          </p> */}
           </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            contentStyle={{ background: "#3f414d", color: "#fff" }}
-            contentArrowStyle={{ borderRight: "7px solid  #3f414d" }}
-            // date="19/10/2022"
-            iconStyle={{ background: "#3f414d", color: "#fff" }}
-            // icon={<WorkIcon />}
-          >
-            <h4 className="vertical-timeline-element-title">
-              Announcement of selected participants for the bootcamp
-            </h4>
-            <p className="d-flex align-items-center">
-              <MdDateRange />
-              &nbsp;19/10/2022
-            </p>
-            {/* <h4 className="vertical-timeline-element-subtitle">
-            Los Angeles, CA
-          </h4>
-          <p>User Experience, Visual Design</p> */}
-          </VerticalTimelineElement>
+
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{ background: "#3f414d", color: "#fff" }}
