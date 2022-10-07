@@ -8,6 +8,11 @@ import Carousel from "react-bootstrap/Carousel";
 import team_1 from "../assets/team_1.png";
 import team_2 from "../assets/team_2.png";
 import flyer_final from "../assets/flyer_final.png";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
+import flyer_final_blur from "../assets/flyer_final_blur.jpg";
+import team_1_blur from "../assets/team_1_blur.jpg";
+import team_2_blur from "../assets/team_2_blur.jpg";
 
 function Home() {
   return (
@@ -15,7 +20,14 @@ function Home() {
       <Navbar />
       <Carousel variant="light">
         <Carousel.Item interval={2000}>
-          <img className="d-block w-100" src={flyer_final} alt="First slide" />
+          <LazyLoadImage
+            src={flyer_final}
+            alt="First slide"
+            PlaceholderSrc={flyer_final_blur}
+            effect="blur"
+            className="d-block w-100"
+          />
+          {/* <img className="d-block w-100" src={flyer_final} alt="First slide" /> */}
           {/* <img className="d-block w-100" src={imga} alt="First slide" /> */}
           {/* <Carousel.Caption>
             <h5>First slide label</h5>
@@ -23,10 +35,24 @@ function Home() {
           </Carousel.Caption> */}
         </Carousel.Item>
         <Carousel.Item interval={2000}>
-          <img className="d-block w-100" src={team_1} alt="Second slide" />
+          <LazyLoadImage
+            src={team_1}
+            alt="Second slide"
+            PlaceholderSrc={team_1_blur}
+            effect="blur"
+            className="d-block w-100"
+          />
+          {/* <img className="d-block w-100" src={team_1} alt="Second slide" /> */}
         </Carousel.Item>
         <Carousel.Item interval={2000}>
-          <img className="d-block w-100" src={team_2} alt="Third slide" />
+          <LazyLoadImage
+            src={team_2}
+            alt="Third slide"
+            PlaceholderSrc={team_2_blur}
+            effect="blur"
+            className="d-block w-100"
+          />
+          {/* <img className="d-block w-100" src={team_2} alt="Third slide" /> */}
         </Carousel.Item>
       </Carousel>
       <Timeline />
