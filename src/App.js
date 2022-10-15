@@ -4,7 +4,7 @@ import About from "./pages/About";
 import QualifyingTask from "./pages/QualifyingTask";
 import Participants from "./pages/Participants";
 import FAQs from "./pages/FAQs";
-import Resources from "./pages/Resources";
+// import Resources from "./pages/Resources";
 import PhotoGallery from "./pages/PhotoGallery";
 import Contact from "./pages/Contact";
 import ImpInstru from "./pages/ImpInstru";
@@ -28,7 +28,7 @@ function App() {
         <Route exact path="/impinstru" element={<ImpInstru />}></Route>
         <Route exact path="/participants" element={<Participants />}></Route>
         <Route exact path="/FAQs" element={<FAQs />}></Route>
-        <Route exact path="/resources" element={<Resources />}></Route>
+        {/* <Route exact path="/resources" element={<Resources />}></Route> */}
         <Route exact path="/photogallery" element={<PhotoGallery />}></Route>
         <Route exact path="/contact" element={<Contact />}></Route>
       </Routes>

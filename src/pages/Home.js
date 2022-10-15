@@ -7,10 +7,12 @@ import Carousel from "react-bootstrap/Carousel";
 // import imga from "../assets/imga.jpeg";
 import team_1 from "../assets/team_1.png";
 import team_2 from "../assets/team_2.png";
-import flyer_final from "../assets/flyer_final.png";
+// import flyer_final from "../assets/flyer_final.png";
+import flyer_final_1 from "../assets/flyer_final_1.png";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
-import flyer_final_blur from "../assets/flyer_final_blur.jpg";
+// import flyer_final_blur from "../assets/flyer_final_blur.jpg";
+import flyer_final_1_blur from "../assets/flyer_final_1_blur.jpg";
 import team_1_blur from "../assets/team_1_blur.jpg";
 import team_2_blur from "../assets/team_2_blur.jpg";
 
@@ -21,9 +23,9 @@ function Home() {
       <Carousel variant="light">
         <Carousel.Item interval={2000}>
           <LazyLoadImage
-            src={flyer_final}
+            src={flyer_final_1}
             alt="First slide"
-            PlaceholderSrc={flyer_final_blur}
+            PlaceholderSrc={flyer_final_1_blur}
             effect="blur"
             className="d-block w-100"
           />

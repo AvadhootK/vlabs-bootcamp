@@ -23,7 +23,7 @@ function About() {
             </Card.Header>
             <Card.Body>
               {/* <Card.Title></Card.Title> */}
-              <Card.Text>
+              <Card.Text style={{ textAlign: "justify" }}>
                 Virtual Labs is an initiative of Ministry of Education (MoE)
                 under the National Mission on Education through ICT. <br></br>
                 <p className="mt-3">
@@ -53,7 +53,7 @@ function About() {
             </Card.Header>
             <Card.Body>
               {/* <Card.Title>Special title treatment</Card.Title> */}
-              <Card.Text>
+              <Card.Text style={{ textAlign: "justify" }}>
                 Virtual Labs project aims to develop Virtual Experiments for the
                 science and engineering disciplines. There are over 1000
                 experiments developed and hosted in the recent past. However,
@@ -95,7 +95,7 @@ function About() {
               Institute of Management,Pune
             </Card.Header>
             <Card.Body>
-              <Card.Text>
+              <Card.Text style={{ textAlign: "justify" }}>
                 The parent institute Pune Vidyarthi Griha (PVG) is a well-known
                 charitable institution in Maharashtra, established in 1909, by a
                 group of dedicated and visionary educationists. The primary
@@ -142,7 +142,7 @@ function About() {
             </Card.Header>
             <Card.Body>
               {/* <Card.Title>Special title treatment</Card.Title> */}
-              <Card.Text>
+              <Card.Text style={{ textAlign: "justify" }}>
                 PVG’s COET was designated as Nodal Centre in 2015 and soon in
                 2017 was designated as the First Regional center in the country
                 by VLabs IIT Bombay. The Regional Centre mentors around 60

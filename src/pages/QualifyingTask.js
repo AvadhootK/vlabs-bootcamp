@@ -23,10 +23,36 @@ function QualifyingTask() {
           </li>
           <li>Fill the QTS submission form on or before 16/10/2022.</li>
         </ol> */}
-        <div className="mb-4">
+        <div>
+          <h5>
+            <b>Steps for Registration</b>
+          </h5>
+          <ol>
+            <li>
+              Register yourself on{" "}
+              <a
+                href="https://vlabsdev.in/codingclub/"
+                target={"_blank"}
+                rel="noreferrer"
+              >
+                VLabsDev Coding Club Platform.
+              </a>{" "}
+            </li>
+            <li>
+              After logging in, under your dashboard, go through the Fundamental
+              and Advanced Preparatory Coursework.
+            </li>
+            <li>Complete the Qualifying Tasks</li>
+            <li>Submit the Gitlab links to the tasks on your dashboard.</li>
+            <li>Finalists will be announced after the evaluation.</li>
+          </ol>
+          <b>Last Date for Step 4 is 26th Oct 2022.</b> The form link will be
+          disabled after the last date.
+        </div>
+        {/* <div className="mb-4">
           Register to participate in the Bootcamp :&nbsp;
           <a
-            href="https://vlabsdev.in/codingclub"
+            href="https://vlabsdev.in/codingclub/"
             target={"_blank"}
             rel="noreferrer"
           >
@@ -51,7 +77,7 @@ function QualifyingTask() {
           >
             Click Here
           </a>
-        </div>
+        </div> */}
       </div>
       <Footer />
     </>

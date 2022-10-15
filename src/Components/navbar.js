@@ -57,9 +57,9 @@ function navbar() {
             <Link to="/faqs" className="navlink">
               <Nav.Link href="faqs">FAQs</Nav.Link>
             </Link>
-            <Link to="/resources" className="navlink">
+            {/* <Link to="/resources" className="navlink">
               <Nav.Link href="resources">Resources</Nav.Link>
-            </Link>
+            </Link> */}
             {/* <Link to="/photogallery" className="navlink">
               <Nav.Link href="resources">Gallery</Nav.Link>
             </Link> */}

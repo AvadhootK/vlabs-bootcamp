@@ -345,6 +345,57 @@ function FAQs() {
               </div>
             </div>
           </div>
+          {/* Fourteen */}
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFourteen">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFourteen"
+                aria-expanded="false"
+                aria-controls="collapseFourteen"
+              >
+                What are the dates of online and offline events?
+              </button>
+            </h2>
+            <div
+              id="collapseFourteen"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingFourteen"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Online Event Dates: 31/10/2022 to 6/11/2022 <br></br>Offline
+                Event Dates : 7/11/2022 to 11/11/2022
+              </div>
+            </div>
+          </div>
+          {/* Fifteen */}
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFifteen">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFifteen"
+                aria-expanded="false"
+                aria-controls="collapseFifteen"
+              >
+                What is the last date of registration?
+              </button>
+            </h2>
+            <div
+              id="collapseFifteen"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingFifteen"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                The last date of registration (QTs Submission) is 26/10/22.
+              </div>
+            </div>
+          </div>
         </div>
         <div></div>
       </div>

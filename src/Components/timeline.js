@@ -66,7 +66,7 @@ function about() {
             </h4>
             <p className="d-flex align-items-center">
               <MdDateRange />
-              &nbsp;24/10/2022
+              &nbsp;26/10/2022
             </p>
           </VerticalTimelineElement>
 
