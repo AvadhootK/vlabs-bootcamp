@@ -392,7 +392,7 @@ function FAQs() {
               data-bs-parent="#accordionExample"
             >
               <div class="accordion-body">
-                The last date of registration (QTs Submission) is 26/10/22.
+                The last date of registration (QTs Submission) is 27/10/22.
               </div>
             </div>
           </div>

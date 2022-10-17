@@ -46,7 +46,7 @@ function QualifyingTask() {
             <li>Submit the Gitlab links to the tasks on your dashboard.</li>
             <li>Finalists will be announced after the evaluation.</li>
           </ol>
-          <b>Last Date for Step 4 is 26th Oct 2022.</b> The form link will be
+          <b>Last Date for Step 4 is 27th Oct 2022.</b> The form link will be
           disabled after the last date.
         </div>
         {/* <div className="mb-4">
